@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'photo5.jpg', 'photo7.jpg', 'photo8.jpg',
         'video5.mp4', 'video6.mp4', 'video7.mp4', 'video8.mp4',
         // Add more files as needed
-'photo9.jpg', 'photo10.jpg', 'photo11.jpg', 'photo12.jpg',
+'photo9.jpg', 'photo10.jpg', 'photo11.jpg',
 
 'photo13.jpg', 'photo14.jpg', 'photo15.jpg',
 
