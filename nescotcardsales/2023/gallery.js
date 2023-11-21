@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 'photo29.jpg', 'photo30.jpg', 'photo31.jpg', 'photo32.jpg',
 
- 'photo34.jpg', 'photo35.jpg', 'photo36.jpg',
+ 'photo34.jpg', 'photo35.jpg', 
 
 'photo37.jpg', 'photo38.jpg', 'photo40.jpg',
 
