@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-header {
+    background-image: url('media/photo1.jpg'); /* Replace with the path to your background image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; /* Adjust the padding as needed */
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.enlarged {
+    width: 100%;
+}
+
+/* Additional styling for the parallax effect */
+.gallery-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.about {
+text-align:center;
+}
