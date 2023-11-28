@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<head>
+    <title>27/11/2023 Photos</title>
+    <meta name="description" content="">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Website Title</title>
+    
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
+ <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            // Prompt the user for a password with asterisks
+            const enteredPassword = prompt('Enter the password:');
+            
+            // Check if the entered password is correct
+            const correctPassword = 'Khan321';
+
+            if (enteredPassword !== null) {
+                if (enteredPassword !== correctPassword) {
+                    // If the password is incorrect, reload the page
+                    alert('Incorrect password. Reloading the page.');
+                    location.reload();
+                }
+            } else {
+                // If the user cancels the prompt, reload the page
+                alert('Password prompt cancelled. Reloading the page.');
+                location.reload();
+            }
+        });
+    </script>
+
+
+
+    <!-- Header Section with Parallax Image -->
+    <header class="parallax-header">
         <div class="header-content">
-            <h1>Your Website Title</h1>
+            <h1>27/11/2023 Photos</h1>
         </div>
     </header>
 
     <!-- Main Contact Section with Photo and Video Gallery -->
     <main>
+
+<section class="about-section">
+<div class="about" id="about-us">
+<p>
+
+
+
+
+
+</p>
+</div>
+</section>
         <section class="contact-section">
             <!-- Photo Gallery -->
             <div class="gallery" id="photo-gallery">
@@ -31,5 +72,6 @@
     </main>
 
     <script src="gallery.js"></script>
+
 </body>
 </html>

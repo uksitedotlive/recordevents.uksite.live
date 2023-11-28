@@ -4,7 +4,7 @@ body {
 }
 
 .parallax-header {
-    background-image: url('media/photo7.jpg'); /* Replace with the path to your background image */
+    background-image: url('media/photo1.jpg'); /* Replace with the path to your background image */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
