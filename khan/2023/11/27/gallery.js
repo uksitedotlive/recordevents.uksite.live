@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // List of media files (photos and videos)
     const mediaFiles = [
-        'photo1.jpg', 'photo2.jpg', 'photo3.jpg', 'photo9.jpg',
+        'photo1.jpg', 'photo2.JPG', 'photo3.JPG', 'photo9.JPG',
         
-        'photo5.jpg', 'photo6.jpg', 'photo7.jpg', 'photo8.jpg',
+        'photo5.JPG', 'photo6.JPG', 'photo7.JPG', 'photo8.JPG',
        
         // Add more files as needed
-'photo4.jpg',
+'photo4.JPG',
     ];
 
 
